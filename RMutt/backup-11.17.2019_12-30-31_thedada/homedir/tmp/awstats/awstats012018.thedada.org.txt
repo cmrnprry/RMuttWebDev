@@ -1,0 +1,429 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+# Last config file used to build this data file was /home/thedada/tmp/awstats/awstats.thedada.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2680                
+POS_VISITOR 8271                
+POS_DAY 10634               
+POS_DOMAIN 3374                
+POS_LOGIN 3744                
+POS_ROBOT 3899                
+POS_WORMS 4478                
+POS_EMAILSENDER 4609                
+POS_EMAILRECEIVER 4752                
+POS_SESSION 11274               
+POS_SIDER 11421               
+POS_FILETYPES 4887                
+POS_DOWNLOADS 5027                
+POS_OS 5075                
+POS_BROWSER 5313                
+POS_SCREENSIZE 5924                
+POS_UNKNOWNREFERER 5998                
+POS_UNKNOWNREFERERBROWSER 6549                
+POS_ORIGIN 6859                
+POS_SEREFERRALS 6995                
+POS_PAGEREFS 7178                
+POS_SEARCHWORDS 7412                
+POS_KEYWORDS 7564                
+POS_MISC 2344                
+POS_ERRORS 7623                
+POS_CLUSTER 3600                
+POS_SIDER_404 7709                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201014321 6 580 9928389724061
+FirstTime 20180101020050
+LastTime 20180131230737
+LastUpdate 20180201074317 6 0 5 0 0
+TotalVisits 70                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 14 419146 5 14 190447
+1 1 1 1629 8 13 193705
+2 8 8 65831 7 9 6516
+3 30 30 16281 14 21 192076
+4 3 3 4887 4 7 3258
+5 3 3 4887 8 11 243246
+6 1 1 1629 8 10 8145
+7 3 3 57686 4 12 192076
+8 7 10 411906 9 16 200221
+9 4 4 8692 9 19 11403
+10 4 4 6516 11 13 11403
+11 6 6 11950 17 24 256280
+12 6 9 408825 7 9 9774
+13 15 18 426386 6 8 8145
+14 1 1 1629 5 6 6516
+15 4 5 167934 17 24 15387
+16 0 0 0 12 16 20095
+17 12 14 209460 3 6 3258
+18 3 3 4887 7 7 6516
+19 3 3 4887 12 19 203479
+20 2 2 3258 10 17 254651
+21 2 2 3258 3 5 4887
+22 3 3 4887 11 14 69089
+23 6 6 62573 15 22 199316
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 82 93 1494582
+ru 14 15 342621
+fr 8 8 13032
+gb 8 8 13032
+ca 7 7 13579
+de 6 9 410277
+in 4 4 7240
+nl 3 3 4887
+it 2 2 3258
+cl 2 2 3258
+za 1 1 1629
+at 1 1 1629
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 102 168334 20180129130028 0
+bot[\s_+:,\.\;\/\\-] 33 188447 20180111055919 0
+Uptimebot/ 20 3258 20180127031621 0
+bingpreview 20 1855600 20180130031951 0
+bingbot/ 9 13032 20180130030256 0
+YandexBot/ 8 65833 20180130231606 0
+googlebot 3 5611 20180108222745 0
+ia_archiver 2 3258 20180101032819 0
+netcraft 1 1629 20180103155938 0
+Googlebot\-Image/ 1 1629 20180126155805 0
+SurveyBot/ 1 1629 20180129010754 0
+MJ12bot/ 1 1629 20180116141903 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 110 200216 0 0
+png 15 1731260 0 0
+Unknown 21 1620 0 0
+ttf 7 375928 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+linuxandroid 1 1
+win8.1 1 1
+winnt 3 3
+win7 8 7
+win8 4 4
+macosx12 14 14
+win2003 5 5
+winxp 10 10
+linux 20 20
+macosx 29 20
+Unknown 44 44
+winunknown 3 1
+win10 10 7
+winlong 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 29
+chrome37.0.2062.120 9 9
+chrome62.0.3202.94 3 2
+chrome34.0.1847.131 1 1
+chrome61.0.3163.100 13 13
+msie10.0 2 2
+netscape 5 5
+chrome46.0.2490.80 3 3
+netscape5.0 1 1
+chrome63.0.3239.132 18 9
+Unknown 22 22
+msie8.0 4 4
+chrome45.0.2454.94 1 1
+chrome31.0.1623.0 2 2
+chrome58.0.3029.110 10 10
+chrome28.0.1464.0 2 2
+chrome56.0.2924.87 2 2
+firefox57.0 1 1
+chrome57.4.9371.4009 1 1
+safari10.0 8 5
+chrome34.0.1847.132 1 1
+safari8.0 3 3
+chrome34.0.1847.116 1 1
+opera46.0.2597.57 1 1
+firefox27.0 1 1
+firefox38.0 3 1
+firefox26.0 5 5
+mozilla 17 17
+msie7.0 5 5
+firefox7.0.1 8 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20180105033754
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180105003540
+OrgProbe/2.0.0_(_http://www.blocked.org.uk) 20180129190457
+Cpanel-HTTP-Client/1.0 20180105033753
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20180122134655
+ia_archiver 20180131230737
+Mozilla/5.0_(compatible;_ips-agent) 20180107114432
+Mozilla 20180111175629
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20180122134655
+OrgProbe/2.0.0_(_http://www.blocked.org.uk) 20180129190457
+ia_archiver 20180131230737
+Cpanel-HTTP-Client/1.0 20180105033753
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 96 96
+From1 0 0
+From2 9 9
+From3 11 11
+From4 22 37
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yandexru 4 4
+google 1 1
+google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://burger-imperia.com 8 8
+http://whoisrmutt.com 2 2
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 110 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/deployment-config.json 3 -
+/wp-login.php 6 -
+/.env 2 -
+/.remote-sync.json 3 -
+/robots.txt 79 -
+/sitemap.xml 1 -
+/.vscode/ftp-sync.json 3 -
+/upload/_dispatch.php 1 -
+/.ftpconfig 3 -
+/user/register 2 -
+/KlfhsYYs 1 -
+/sftp-config.json 4 -
+/index.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+64.118.86.20 18 18 1359 20180105033753
+104.192.74.29 10 10 20642 20180111175629
+13.56.229.65 10 10 16290 20180129210042
+142.4.218.156 7 7 13579 20180105003541
+129.10.9.35 6 12 807876 20180117133457
+38.100.21.67 5 5 10321 20180111130723
+80.137.34.248 5 8 408648 20180106085638
+69.58.178.56 5 5 10321 20180107114432
+185.163.1.11 4 4 6516 20180108031816
+129.10.9.59 3 6 403938 20180125121602
+66.133.109.36 3 3 261 20180105033754
+103.208.246.230 3 3 5611 20180117131508
+54.85.182.120 3 3 7063 20180106095123
+164.132.51.91 2 2 3258 20180108032406
+37.204.52.249 2 2 56057 20180115230953
+108.61.177.16 2 2 3258 20180122134655
+52.51.42.88 2 2 3258 20180103104757
+34.242.252.27 2 2 3258 20180107223310
+176.77.4.24 2 2 56057 20180112070046
+128.72.212.204 2 2 56057 20180118022243
+35.153.157.107 2 2 3258 20180129040023
+54.165.59.7 2 2 3258 20180131230737
+46.183.144.22 1 1 1629 20180112065141
+88.99.99.145 1 1 1629 20180109152654
+54.255.186.112 1 1 1629 20180111153535
+52.215.249.7 1 1 1629 20180103182428
+51.254.139.2 1 1 1629 20180126143235
+77.247.181.162 1 1 1629 20180128051030
+144.48.104.226 1 3 187189 20180115171844
+196.54.55.14 1 1 1629 20180109123515
+185.22.172.127 1 1 1629 20180114025637
+47.88.70.142 1 1 1629 20180118071109
+213.136.85.29 1 1 1629 20180130132714
+46.105.30.8 1 1 1629 20180119201404
+51.15.217.217 1 1 1629 20180131230700
+51.9.23.191 1 1 1629 20180129190405
+104.223.123.98 1 1 1629 20180108032421
+109.63.236.223 1 2 163047 20180113151907
+86.145.81.218 1 1 1629 20180129190314
+188.165.26.121 1 1 1629 20180118171242
+185.220.101.44 1 1 1629 20180113205307
+178.33.54.161 1 1 1629 20180119022206
+5.135.158.101 1 1 1629 20180123084902
+82.34.52.143 1 1 1629 20180129190457
+124.124.14.93 1 1 1629 20180131004422
+193.171.202.150 1 1 1629 20180118122253
+51.15.64.212 1 1 1629 20180108032417
+179.61.156.98 1 1 1629 20180120111650
+181.215.151.16 1 1 1629 20180104221031
+47.89.107.155 1 1 1629 20180113102934
+23.94.226.102 1 1 1629 20180101124638
+94.23.75.60 1 1 1629 20180129102444
+45.76.232.200 1 1 1629 20180115092135
+185.104.120.4 1 1 1629 20180121152702
+178.33.39.197 1 1 1629 20180125011618
+54.224.150.0 1 1 1629 20180111212745
+146.185.144.64 1 1 1629 20180121232946
+51.15.136.98 1 1 1629 20180121020347
+158.46.167.202 1 1 1629 20180124132850
+37.187.94.86 1 1 1629 20180114184747
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20180101 2 2 3258 2
+20180103 4 4 6516 3
+20180104 1 1 1629 1
+20180105 28 28 15199 3
+20180106 9 12 417340 3
+20180107 7 7 13579 2
+20180108 9 9 14661 5
+20180109 2 2 3258 2
+20180110 1 1 1629 1
+20180111 20 23 438159 5
+20180112 4 4 59315 3
+20180113 3 4 166305 3
+20180114 3 3 4887 3
+20180115 4 6 244875 3
+20180117 6 9 409549 2
+20180118 5 5 60944 4
+20180119 2 2 3258 2
+20180120 2 2 3258 2
+20180121 3 3 4887 3
+20180122 2 2 3258 1
+20180123 2 2 3258 2
+20180124 1 1 1629 1
+20180125 4 7 405567 2
+20180126 1 1 1629 1
+20180128 1 1 1629 1
+20180129 7 7 11403 6
+20180130 1 1 1629 1
+20180131 4 4 6516 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 70
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 81 131949 61 58
+/about.html 14 32942 6 0
+/archive.html 8 18840 1 4
+/adler.ttf 7 375928 0 4
+/contact.html 7 16485 0 2
+/.well-known/acme-challenge/6BzIIMkU7fH-djlV6VOaLwiZBy_0Jw-NnvHwNi5Q8pg 2 174 0 0
+/.well-known/acme-challenge/B-Ico7TKMuS9jsmnYV_6NawyH9HvJBVzcMF9YU7gf9I 2 174 0 2
+/.well-known/acme-challenge/kE_9kGD3AAdB9wjc5gYgteFwqhlIjgXudsH4K_sb5Bo 2 174 1 0
+/.well-known/acme-challenge/r3FOPUFqd3WTpALgqbgUJZ2k0ybKVNf8fcN2MuOXiw0 2 174 0 0
+/.well-known/acme-challenge/5MVvkHmxYtzCDh4h_wVraU-o6Vph0yr0bEX8D5h25d0 2 174 0 0
+/.well-known/acme-challenge/GqwDuFZS0PCVenmBya7jNwyFf8DZmJuWdErU9dbTYQs 2 174 0 0
+/.well-known/acme-challenge/RYU1-ZITBHEGWM-Z8DA2RQ56Y0ZJ60R6 1 64 0 0
+/.well-known/acme-challenge/-4WH2QBXSI8WLEHR_2_LHT91BEN5JBVN 1 64 0 0
+/.well-known/acme-challenge/N_W3KAIWSGILD-ADCIS3BCE7QWYIO6TH 1 64 0 0
+/.well-known/acme-challenge/E6K35FF2-83BWX7X5SU3YJZSHQ-LPWVO 1 64 0 0
+/.well-known/acme-challenge/4LQ16K8KCL_IF_REN8SE5CYW2BMQ9NQO 1 64 0 0
+/.well-known/acme-challenge/CYREI7YI8_F9G83KZ_3OKNORWHNL7OAH 1 64 0 0
+/.well-known/acme-challenge/8HLTDBL01KQS7NHCID6R_TDJ5ZZDWUE6 1 64 0 0
+/.well-known/acme-challenge/7_KVJL4PPLQB30_D41_T0F2K53KFDKOF 1 64 0 0
+/.well-known/acme-challenge/ZJQP_XQN73RD61_64F9C64U9DISP6MS- 1 64 1 0
+END_SIDER

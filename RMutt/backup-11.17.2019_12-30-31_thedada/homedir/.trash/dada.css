@@ -1,0 +1,134 @@
+@font-face {
+font-family: "Adler";
+src: url("addler.ttf");
+}
+
+body {
+	background:#b5b5b5;;
+}
+
+head {
+	background:#000;
+}
+
+#black {
+	width:100vw;
+	height:100vh;
+	background:#000;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#menu-bar {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+
+.logo {
+	width:auto;
+	height:75%;
+	display:block;
+    position: absolute;
+    top: 5%; bottom:10%; left: 0; right:0;
+    margin: auto;
+}
+
+.arrow {	
+	width:auto;
+	height:1.5%;
+	display:block;
+    position: absolute;
+    bottom:10%; left: 0; right:0;
+    margin: auto;
+}
+
+.arrow hover {
+	height:20%;
+	width:auto;
+}
+
+.header {
+	width:25%;
+	height:auto;
+	position:absolute;
+	top:2%; left:2%;
+	margin:auto;
+	z-index:1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10 0 0 0;
+    padding: 9vh 0;
+    overflow: hidden;
+    font-family:Adler;
+    font-size:1vw;
+	z-index:1;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vh 2vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:#b5b5b5;
+}
+
+li img {
+	width:15vw;
+	z-index:2;
+	position:relative;
+	padding-top:5%;
+	padding-right:23%;
+}
+
+.password {
+	text-align: center; 
+	margin: 0 auto; 
+	color: #000; 
+	font: 20px Adler;
+	padding:10%;
+}
+
+.content {
+	display:none;
+}
+
+#letters {
+	margin:0 auto;
+	text-align:center;
+	width:50vw;
+	height:100vh;
+	overflow:hidden;
+}
+
+#red {
+	position:absolute;
+	top:57.75%;
+	left:46.8%;
+	z-index:1;
+	height:2%;
+    opacity: 0;
+}
+
+#red:hover {
+    opacity: 1;
+}
+
+#white img {
+	position:relative;
+	z-index:0;
+	height:100%;
+}

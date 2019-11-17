@@ -1,0 +1,87 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/thedada.org-ssl_log
+directoryhomethedada: 
+  allowoverride: All
+documentroot: /home/thedada/public_html
+group: thedada
+hascgi: 1
+homedir: /home/thedada
+ifmodulemodincludec: 
+  directoryhomethedadapublichtml: 
+    ssilegacyexprparser: 
+      - 
+        value: " On"
+ifmodulemodpassengerc: 
+  passengergroup: 
+    - 
+      value: " thedada"
+  passengeruser: 
+    - 
+      value: " thedada"
+ip: 64.118.86.20
+ipv6: ~
+owner: root
+phpopenbasedirprotect: 1
+port: 443
+proxymatchhttps: {}
+
+proxypass: 
+  - 
+    proxypass: "\"/___proxy_subdomain_cpanel\" \"http://127.0.0.1:2082\" max=1 retry=0"
+  - 
+    proxypass: "\"/___proxy_subdomain_webdisk\" \"http://127.0.0.1:2077\" max=1 retry=0"
+  - 
+    proxypass: "\"/___proxy_subdomain_webmail\" \"http://127.0.0.1:2095\" max=1 retry=0"
+rewritecond: 
+  - 
+    rewritecond: "%{HTTP_HOST} =cpanel.thedada.org [OR]"
+  - 
+    rewritecond: "%{HTTP_HOST} =cpanel.thedada.org:443"
+  - 
+    rewritecond: "%{HTTP:Upgrade} !websocket   [nocase]"
+  - 
+    rewritecond: "%{HTTP_HOST} =webdisk.thedada.org [OR]"
+  - 
+    rewritecond: "%{HTTP_HOST} =webdisk.thedada.org:443"
+  - 
+    rewritecond: "%{HTTP_HOST} =webmail.thedada.org [OR]"
+  - 
+    rewritecond: "%{HTTP_HOST} =webmail.thedada.org:443"
+  - 
+    rewritecond: "%{HTTP:Upgrade} websocket   [nocase]"
+rewriteengine: 'On'
+rewriterule: 
+  - 
+    pattern: "^/(.*)"
+    qualifier: "[PT]"
+    substitution: /___proxy_subdomain_cpanel/$1
+  - 
+    pattern: "^/(.*)"
+    qualifier: "[PT]"
+    substitution: /___proxy_subdomain_webdisk/$1
+  - 
+    pattern: "^/(.*)"
+    qualifier: "[PT]"
+    substitution: /___proxy_subdomain_webmail/$1
+  - 
+    pattern: "^/(.*)"
+    qualifier: "[PT]"
+    substitution: /___proxy_subdomain_ws_cpanel/$1
+  - 
+    pattern: "^/(.*)"
+    qualifier: "[PT]"
+    substitution: /___proxy_subdomain_ws_webmail/$1
+secruleengineoff: ~
+serveradmin: webmaster@thedada.org
+serveralias: mail.thedada.org www.thedada.org
+servername: thedada.org
+ssl: 1
+sslcacertificatefile: /var/cpanel/ssl/installed/cabundles/Let_s_Encrypt_d5a69d0f2effae8513e08eaced2ccf28_1615999246.cabundle
+sslcertificatefile: /var/cpanel/ssl/installed/certs/thedada_org_c4f48_a876f_1517643410_433c2c6c8de822199aa12f4e62321011.crt
+sslcertificatekeyfile: /var/cpanel/ssl/installed/keys/c4f48_a876f_d689bf996c963ddb2b438a6572fe46c6.key
+usecanonicalname: 'Off'
+user: thedada
+userdirprotect: ''

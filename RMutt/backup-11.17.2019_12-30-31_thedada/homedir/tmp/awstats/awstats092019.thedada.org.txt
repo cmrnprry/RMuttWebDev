@@ -1,0 +1,685 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/thedada/tmp/awstats/awstats.thedada.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2681                
+POS_VISITOR 13687               
+POS_DAY 18651               
+POS_DOMAIN 3422                
+POS_LOGIN 3883                
+POS_ROBOT 4038                
+POS_WORMS 4689                
+POS_EMAILSENDER 4820                
+POS_EMAILRECEIVER 4963                
+POS_SESSION 19355               
+POS_SIDER 19540               
+POS_FILETYPES 5098                
+POS_DOWNLOADS 5271                
+POS_OS 5319                
+POS_BROWSER 5588                
+POS_SCREENSIZE 6800                
+POS_UNKNOWNREFERER 6874                
+POS_UNKNOWNREFERERBROWSER 7195                
+POS_ORIGIN 7453                
+POS_SEREFERRALS 7592                
+POS_PAGEREFS 7749                
+POS_SEARCHWORDS 8028                
+POS_KEYWORDS 8180                
+POS_MISC 2344                
+POS_ERRORS 8239                
+POS_CLUSTER 3739                
+POS_SIDER_404 8338                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001033327 7 931 9891576872581
+FirstTime 20190901000940
+LastTime 20190930095539
+LastUpdate 20191001083800 7 0 6 0 0
+TotalVisits 161                 
+TotalUnique 123                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 133                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 18 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 8 7397 42 49 7683
+1 8 12 196742 52 60 190819
+2 14 14 4524 48 58 196996
+3 7 14 385731 36 45 12081
+4 11 14 192649 48 54 8293
+5 15 25 537351 39 55 367016
+6 6 7 6838 12 23 11236
+7 6 6 2084 40 55 191124
+8 11 11 4611 12 29 760170
+9 6 6 1830 49 52 5045
+10 6 6 1830 53 64 191124
+11 4 4 1220 8 14 12104
+12 26 74 9323223 33 50 195959
+13 16 39 8045141 4 17 13536
+14 5 5 1525 72 81 7143
+15 15 40 12428347 37 55 194902
+16 4 4 1220 38 43 251118
+17 8 11 191734 6 22 388164
+18 6 6 1830 34 39 11236
+19 5 5 1525 60 74 192579
+20 15 25 595299 18 21 2065
+21 11 12 8363 52 57 1973
+22 16 16 4880 95 100 3696
+23 7 7 2135 28 42 380723
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 120 235 30802026
+ca 42 42 14066
+cn 20 36 916208
+ru 11 12 8363
+gb 9 12 192039
+fr 6 6 1830
+it 4 4 1220
+cl 4 4 1220
+gr 3 3 915
+br 2 2 610
+hn 2 2 610
+ua 2 2 864
+lv 2 2 610
+nl 2 2 610
+ar 1 1 305
+de 1 1 305
+sa 1 1 305
+vn 1 1 305
+my 1 1 305
+ch 1 2 5313
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+Googlebot/ 52 41503 20190928102759 0
+bingpreview 51 3038978 20190929173243 0
+bingbot/ 47 37240 20190930194059 0
+YandexBot/ 16 5208 20190928223551 0
+bot[\s_+:,\.\;\/\\-] 10 2745 20190930154229 0
+MJ12bot/ 8 3696 20190925004531 0
+spider 6 10626 20190913113739 0
+AhrefsBot/ 6 2837 20190930042138 0
+(firefox/)([0-9]\.|[0-1][0]\.) 5 6228 20190927075017 0
+DuckDuckGo\-Favicons\-Bot/ 3 915 20190923194516 0
+SemrushBot/ 1 554 20190921081129 0
+facebookexternalhit/ 1 249593 20190929162448 0
+no_user_agent 1 305 20190915001654 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+jpg 21 8009715 0 0
+css 21 105168 0 0
+png 89 23238422 0 0
+js 5 15215 0 0
+ttf 11 487796 0 0
+html 224 91713 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+macosx12 4 4
+linux 17 12
+linuxandroid 42 13
+macosx8 1 1
+win8.1 1 1
+macosx11 13 13
+macosx9 2 2
+win7 24 23
+ios_iphone 14 8
+win8 1 1
+winlong 4 4
+Unknown 41 38
+macosx 4 4
+win10 191 99
+macosx10 6 6
+winxp 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 58
+chrome76.0.3809.132 102 32
+chrome5.0.375.99 1 1
+msie10.0 2 1
+firefox68.0 2 2
+firefox60.0 2 2
+opera55.0.2994.44 1 1
+safari12.1.2 4 1
+chrome70.0.3538.77 4 1
+chrome66.0.3359.117 2 2
+chrome58.0.3029.110 4 4
+Unknown 32 32
+chrome76.0.3809.100 4 4
+chrome77.0.3865.90 15 5
+chrome74.0.3729.157 12 4
+firefox59.0 1 1
+chrome34.0.1847.131 1 1
+opera54.0.2952.54 1 1
+chrome74.0.3729.169 6 6
+msie6.0 4 4
+edge17 1 1
+safari10.0 2 2
+chrome63.0.3239.132 26 26
+chrome11.0.700.3 1 1
+msie8.0 1 1
+chrome55.0.2883.87 4 4
+chrome75.0.3770.142 2 2
+chrome41.0.2225.0 1 1
+chrome41.0.2226.0 1 1
+opera36.0.2130.32 2 2
+chrome74.0.3729.131 5 5
+chrome45.0.2454.94 1 1
+firefox42.0 2 2
+mozilla 9 6
+chrome26.0.1410.65 1 1
+chrome77.0.3865.92 26 8
+chrome40.0.2214.115 2 2
+opera62.0.3331.99 3 3
+chrome69.0.3494.0 4 2
+firefox47.0 12 12
+chrome68.0.3440.106 2 2
+chrome39.0.2171.95 3 3
+chrome50.0.2661.102 1 1
+firefox65.0 1 1
+firefox66.0 2 2
+android 4 1
+safari5.1 4 4
+chrome73.0.3683.86 4 2
+safari10.1.2 1 1
+chrome71.0.3578.80 2 2
+firefox63.0 1 1
+firefox62.0 2 2
+chrome34.0.1847.116 4 4
+safari11.0 4 1
+chrome35.0.1916.47 2 2
+chrome72.0.3626.119 13 3
+firefox64.0 12 12
+firefox67.0 1 1
+chrome22.0.1207.1 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Go-http-client/1.1 20190929231014
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20190907055913
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190909130610
+python-requests/2.22.0 20190914172131
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20190907055913
+Go-http-client/1.1 20190929231014
+python-requests/2.22.0 20190914172131
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 179 185
+From1 2 2
+From2 1 1
+From3 10 10
+From4 43 173
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandexru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://whoisrmutt.com 5 5
+http://datadepths.com/profile.php 2 2
+http://whoisrmutt.com// 2 2
+http://www.xpzb.net/blog/13882614/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 6 175657
+404 928 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 161
+/images/jdownloads/screenshots/rxrking.php3.g 1 -
+/zp-core/zp-extensions/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 12 -
+/plugins/jquery-file-upload/server/php/ 1 -
+/web/wp-includes/wlwmanifest.xml 13 -
+/wp1/wp-includes/wlwmanifest.xml 13 -
+//wp2/wp-includes/wlwmanifest.xml 1 -
+/webadmin/ 1 -
+/wordpres 1 -
+/theLetter.pdf 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/shop/wp-includes/wlwmanifest.xml 13 -
+/files/uploadify/uploadify.php 12 -
+/user/register/ 1 -
+/ads.txt 1 -
+//site/wp-includes/wlwmanifest.xml 1 -
+/rxr.php 1 -
+/Admin/ 1 -
+/new/ 1 -
+/adminside/server/php/ 12 -
+/wordpress/ 3 -
+/cms/ 2 -
+/assets/uploadify/uploadify.php 12 -
+/vendor/phpunit/phpunit/composer.json 3 -
+//2015/wp-includes/wlwmanifest.xml 1 -
+/portfolio 1 -
+/xmlrpc.php 15 -
+/wordpress2 1 -
+/administrator/ 1 -
+/editor/plugins/filemanager/ajax_create_folder.php 12 -
+/2019/wp-login.php 1 -
+/main/wp-admin/install.php 1 -
+/public/js/plugins/imgsurfer/main.php 12 -
+/site/wp-admin/install.php 1 -
+/temp/wp-admin/install.php 1 -
+/wp/ 3 -
+/blog2 1 -
+/portal/ 1 -
+/2018/wp-includes/wlwmanifest.xml 13 -
+/test/wp-includes/wlwmanifest.xml 13 -
+/templates/system/css/system.css 12 -
+/vendor_extra/elfinder/php/connector.minimal.php 12 -
+/robots.txt 121 -
+/home/wp-admin/install.php 1 -
+/admin/content/sitetree/ 1 -
+//web/wp-includes/wlwmanifest.xml 1 -
+/resources/demos/style.css 1 http://thedada.org/lnpuzzle.html
+/cfg-contactform-1/inc/upload.php 12 -
+/assets/plugins/jquery-file-upload/server/php/ 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 12 -
+/2017/wp-includes/wlwmanifest.xml 13 -
+//website/wp-includes/wlwmanifest.xml 1 -
+/bk/wp-admin/install.php 1 -
+/cms/wp-includes/wlwmanifest.xml 14 -
+/blog/administrator/index.php 2 -
+/tmp/ 1 -
+/app/webroot/js/tinymce/plugins/imgsurfer/main.php 12 -
+/server/php 12 -
+/wordpress/wp-admin/install.php 1 -
+//sito/wp-includes/wlwmanifest.xml 1 -
+/new/wp-admin/install.php 1 -
+/demo/wp-admin/install.php 1 -
+/bio 1 -
+/blog 1 -
+/sito/wp-includes/wlwmanifest.xml 13 -
+/wp 1 -
+/new 1 -
+/blog/wp-admin/install.php 1 -
+//blog/wp-includes/wlwmanifest.xml 1 -
+/manager/ 1 -
+/site/wp-includes/wlwmanifest.xml 14 -
+/scripts/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php 12 -
+/old/wp-admin/install.php 1 -
+/site/ 1 -
+//wp1/wp-includes/wlwmanifest.xml 1 -
+/wp-login.php 18 -
+/assets/uploadify/old/uploadify.php 12 -
+/sitemap.xml 2 -
+/test/ 1 -
+//2018/wp-includes/wlwmanifest.xml 1 -
+/test/wp-admin/install.php 1 -
+/components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 12 -
+/test/wp-login.php 1 -
+/wp2 1 -
+/wp/wp-login.php 1 -
+/backup/wp-admin/install.php 1 -
+/admin/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 12 -
+//wordpress/wp-includes/wlwmanifest.xml 1 -
+/wp2/wp-includes/wlwmanifest.xml 13 -
+/wp/wp-includes/wlwmanifest.xml 14 -
+//media/wp-includes/wlwmanifest.xml 1 -
+//news/wp-includes/wlwmanifest.xml 1 -
+/administrator/index.php 3 -
+/temp/ 1 -
+/components/com_jbcatalog/libraries/jsupload/ 1 -
+/wp-admin/install.php 1 -
+/wp-includes/wlwmanifest.xml 13 -
+//shop/wp-includes/wlwmanifest.xml 1 -
+/assets/tinymce/plugins/imgsurfer/main.php 12 -
+/joomla/robots.txt 2 -
+/simpla/ 1 -
+/ajax/api/hook/decodeArguments 12 -
+/wp/wp-admin/ 1 -
+/components/RxR_1569795766.php 1 -
+/tinymce/jscripts/tiny_mce/plugins/imgsurfer/main.php 12 -
+/blog/robots.txt 4 -
+/admin/libraries/ajaxfilemanager/ajax_create_folder.php 12 -
+/cms/wp-admin/install.php 1 -
+/admin/editor/plugins/filemanager/ajax_create_folder.php 12 -
+/server/php/ 1 -
+//xmlrpc.php 1 -
+/blog/wp-includes/wlwmanifest.xml 14 -
+/wordpress1 1 -
+/wordpress/wp-includes/wlwmanifest.xml 14 -
+/backup/ 1 -
+/public/upload_nhieuanh/server/php/_index.php 12 -
+/portal 1 -
+/js/mage/cookies.js 1 -
+/web/ 1 -
+//cms/wp-includes/wlwmanifest.xml 1 -
+/media/editor/plugins/filemanager/ajax_create_folder.php 12 -
+/admin/login.php 12 -
+//2016/wp-includes/wlwmanifest.xml 1 -
+/2016/wp-includes/wlwmanifest.xml 13 -
+/media/wp-includes/wlwmanifest.xml 13 -
+/joomla/administrator/index.php 2 -
+/adminpanel/ 1 -
+//test/wp-includes/wlwmanifest.xml 1 -
+/templates/admin/js/tinymce/plugins/imgsurfer/main.php 12 -
+/umapresence/umaservices/umapage/inc/contentCss.php 12 -
+/news/wp-includes/wlwmanifest.xml 13 -
+/tinymce/plugins/imgsurfer/main.php 12 -
+//wp-login.php 1 -
+/manager/ldskflks 1 -
+/blog/ 3 -
+/tmp/wp-admin/install.php 1 -
+/wordpress 1 -
+/wp/wp-admin/install.php 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 13 -
+/infusions/mp3player_panel/upload.php 12 -
+/modul/tinymce/plugins/ajaxfilemanager/ajax_create_folder.php 12 -
+/news 1 -
+/web 1 -
+/.git/HEAD 1 -
+/home/ 1 -
+/old/ 1 -
+/dev/ 1 -
+//2017/wp-includes/wlwmanifest.xml 1 -
+//wp/wp-includes/wlwmanifest.xml 1 -
+/helpdesk/media/editor/plugins/filemanager/ajax_create_folder.php 12 -
+/manager/index.php 1 -
+/Administrator/ 1 -
+/index.php 11 -
+/wp1 1 -
+/wordpress/wp-login.php 1 -
+/2015/wp-includes/wlwmanifest.xml 13 -
+/demo/ 1 -
+/admin/images/cal_date_over.gif 12 -
+/admin/ 3 -
+/main/ 1 -
+/website/wp-includes/wlwmanifest.xml 13 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 133
+167.114.200.140 36 36 10980 20190919211048
+73.219.193.38 20 64 19927739 20190918154140
+60.191.38.77 12 12 3660 20190922141412
+155.33.132.20 10 30 7854017 20190912135101
+167.114.158.57 6 6 3086 20190908084603
+155.33.133.42 5 15 592249 20190926200038
+34.87.105.87 4 4 1220 20190929203523
+138.68.180.18 4 4 2476 20190912051728
+51.68.152.26 3 3 915 20190924110306
+155.33.133.50 3 11 519619 20190925125022
+155.33.134.44 3 11 519619 20190925125008
+92.119.160.72 3 3 915 20190918014659
+66.249.88.181 2 4 145464 20190925125021
+163.172.182.111 2 2 610 20190922222715
+104.140.22.147 2 2 864 20190919073615
+5.188.62.5 2 2 610 20190925163631
+66.249.88.179 2 4 166564 20190925125008
+212.83.147.249 2 2 610 20190906141505
+175.42.86.226 2 2 610 20190911223817
+35.167.221.85 2 2 610 20190903185458
+145.239.66.107 2 2 610 20190914084719
+193.70.34.209 2 2 610 20190928212412
+3.15.168.181 2 2 610 20190918063949
+107.6.183.162 2 2 610 20190915215846
+185.17.127.164 2 2 864 20190911024848
+144.76.168.130 1 1 305 20190914152915
+54.218.67.73 1 1 305 20190901000940
+111.73.45.137 1 4 189599 20190923011139
+194.58.107.6 1 1 305 20190927022553
+155.33.133.51 1 4 189599 20190925124955
+54.36.113.142 1 1 305 20190905062920
+190.185.109.190 1 1 305 20190902051524
+35.226.23.234 1 1 559 20190915001655
+54.212.95.145 1 1 305 20190926174342
+54.244.108.171 1 1 305 20190917225945
+183.253.80.68 1 1 305 20190903084940
+54.244.176.100 1 1 305 20190921023525
+163.172.70.215 1 1 305 20190908130436
+51.77.246.201 1 4 189599 20190909130610
+34.217.68.254 1 1 305 20190929180935
+173.252.127.24 1 2 5313 20190916032358
+111.7.100.25 1 2 70259 20190910053823
+50.112.46.174 1 1 305 20190905190502
+104.227.246.106 1 1 305 20190911184103
+45.32.128.51 1 1 305 20190914192153
+5.188.84.125 1 1 305 20190904122657
+36.99.136.132 0 1 258 
+132.148.223.233 1 1 305 20190904120703
+36.99.136.134 0 1 184028 
+171.13.14.40 1 2 5313 20190907032146
+18.236.97.60 1 1 305 20190916201033
+148.72.65.204 1 1 305 20190916102656
+45.76.128.229 1 2 5313 20190921215954
+191.96.63.113 1 1 305 20190904232744
+173.252.87.34 0 1 184028 
+173.252.127.12 0 1 258 
+123.31.43.162 1 1 305 20190925025802
+173.252.87.30 1 2 5313 20190910045631
+81.173.112.207 1 1 305 20190926214936
+34.223.105.50 1 1 305 20190910031147
+34.220.252.241 1 1 305 20190925174246
+92.63.194.45 1 1 305 20190905012836
+34.215.181.10 1 1 305 20190929180937
+185.46.8.135 1 1 305 20190904005909
+177.91.101.203 1 1 305 20190908134744
+54.189.84.246 1 1 305 20190911042540
+111.7.100.24 1 3 23035 20190910053821
+181.214.210.227 1 1 305 20190919031254
+34.220.133.136 1 1 305 20190925205846
+34.67.197.111 1 1 305 20190905171038
+34.215.212.35 1 1 305 20190912221454
+35.193.230.220 1 1 305 20190915001654
+52.53.181.29 1 1 305 20190913161606
+34.221.27.85 1 1 305 20190920040340
+34.70.135.95 1 1 305 20190914172131
+178.209.40.101 1 2 5313 20190920032200
+52.33.30.148 1 1 305 20190905215715
+142.11.206.83 1 1 305 20190913101921
+107.178.238.40 1 2 5313 20190920004222
+54.214.167.84 1 1 305 20190908044456
+34.216.223.34 1 1 305 20190926174323
+35.203.245.144 1 2 5313 20190920062043
+85.208.21.170 1 1 305 20190907055913
+54.187.123.71 1 1 305 20190912022558
+54.186.237.48 1 1 305 20190916201037
+54.245.163.13 1 1 305 20190901212917
+104.156.231.254 1 1 305 20190929154057
+64.246.165.170 1 1 305 20190916221707
+18.237.190.39 1 1 305 20190922041121
+195.154.156.182 1 1 305 20190908233014
+52.77.232.30 1 1 305 20190909045734
+66.249.88.183 1 7 280221 20190925125017
+188.165.192.220 1 1 305 20190903200529
+14.192.214.243 1 1 305 20190904055512
+185.137.234.20 1 1 305 20190916083349
+171.13.14.60 0 1 258 
+173.252.87.7 0 1 258 
+35.167.210.224 1 1 305 20190918035554
+34.222.73.102 1 1 305 20190910231959
+54.200.196.175 1 1 305 20190913220934
+54.149.248.38 1 1 305 20190908221449
+171.13.14.36 0 1 184028 
+109.126.228.176 1 1 305 20190903115448
+34.220.27.185 1 1 305 20190912221451
+36.99.136.142 1 2 5313 20190910053702
+34.229.55.125 1 1 305 20190910063518
+62.109.5.243 1 1 305 20190927081826
+184.94.240.92 1 1 305 20190907154859
+181.214.28.47 1 1 305 20190912015128
+54.202.56.106 1 1 305 20190929231014
+191.102.166.56 1 1 305 20190922144747
+111.7.100.26 0 2 81042 
+34.223.3.203 1 1 305 20190901212908
+104.192.74.202 1 4 189599 20190922174228
+176.15.41.110 1 2 5313 20190923014248
+188.92.72.129 2 2 610 20190916070000
+62.210.83.78 1 1 305 20190912231054
+191.183.100.51 1 1 305 20190914203940
+141.255.144.48 1 1 305 20190924220415
+54.226.24.28 1 1 305 20190913020224
+168.61.178.132 1 1 305 20190929063834
+34.214.216.40 1 1 305 20190924021112
+34.70.139.119 1 1 305 20190915001655
+173.252.127.23 0 1 184028 
+52.39.58.51 1 1 305 20190920200810
+111.7.100.27 0 2 168500 
+54.166.165.211 1 1 305 20190909214002
+168.227.140.172 1 1 305 20190901123456
+173.193.191.198 1 1 305 20190930095539
+62.210.89.11 1 1 305 20190924104313
+93.63.162.100 2 2 610 20190909090128
+191.101.79.199 1 1 305 20190926052732
+185.137.234.26 1 1 305 20190915053613
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190901 4 4 1220 4
+20190902 1 1 305 1
+20190903 5 5 1525 4
+20190904 6 6 1830 6
+20190905 6 6 1830 6
+20190906 3 3 915 3
+20190907 3 6 190209 3
+20190908 11 11 4611 6
+20190909 5 8 190819 5
+20190910 8 21 723254 8
+20190911 8 8 2694 6
+20190912 19 39 7858018 7
+20190913 14 33 7502137 6
+20190914 17 17 5185 10
+20190915 13 13 4219 10
+20190916 11 14 192649 11
+20190917 2 2 610 2
+20190918 20 45 12429872 6
+20190919 19 19 6049 11
+20190920 6 9 16854 6
+20190921 4 5 6228 4
+20190922 5 8 190819 5
+20190923 2 6 194912 2
+20190924 5 5 1525 4
+20190925 16 45 1822306 10
+20190926 9 19 593469 5
+20190927 2 2 610 2
+20190928 1 1 305 1
+20190929 9 9 2745 6
+20190930 1 1 305 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+2mn-5mn 1
+30mn-1h 3
+5mn-15mn 1
+0s-30s 154
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 185 56425 156 146
+/front.html 13 7267 2 5
+/adler.ttf 8 429632 2 3
+/archive.html 7 7406 0 2
+/about.html 6 3324 1 3
+/newhome.html 3 9954 0 0
+/rrose.html 3 2610 0 0
+/letter.html 3 2052 0 0
+/damnarc.ttf 3 58164 0 0
+/selavy.html 2 930 0 1
+/lnpuzzle.html 1 1285 0 1
+/rrosepicture.html 1 460 0 0
+END_SIDER

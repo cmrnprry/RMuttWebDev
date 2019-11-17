@@ -1,0 +1,368 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201710 will be lost/reset.
+# Last config file used to build this data file was /home/thedada/tmp/awstats/awstats.thedada.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2684                
+POS_VISITOR 7633                
+POS_DAY 8938                
+POS_DOMAIN 3304                
+POS_LOGIN 3642                
+POS_ROBOT 3797                
+POS_WORMS 4191                
+POS_EMAILSENDER 4322                
+POS_EMAILRECEIVER 4465                
+POS_SESSION 9486                
+POS_SIDER 9665                
+POS_FILETYPES 4600                
+POS_DOWNLOADS 4738                
+POS_OS 4786                
+POS_BROWSER 5006                
+POS_SCREENSIZE 5569                
+POS_UNKNOWNREFERER 5643                
+POS_UNKNOWNREFERERBROWSER 6013                
+POS_ORIGIN 6228                
+POS_SEREFERRALS 6362                
+POS_PAGEREFS 6506                
+POS_SEARCHWORDS 6687                
+POS_KEYWORDS 6839                
+POS_MISC 2348                
+POS_ERRORS 6898                
+POS_CLUSTER 3498                
+POS_SIDER_404 6983                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171101020433 12 2097 4949111197706
+FirstTime 20171001221353
+LastTime 20171031165946
+LastUpdate 20171101084108 12 0 11 0 0
+TotalVisits 51                  
+TotalUnique 32                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 9 16837 3 5 1629
+1 3 3 4887 2 2 1629
+2 3 3 4887 5 7 6516
+3 1 1 1629 3 6 4887
+4 1 1 0 2 2 1629
+5 4 4 6516 2 2 0
+6 6 6 9774 7 13 8145
+7 2 2 3258 1 1 1629
+8 3 3 4887 3 5 1629
+9 5 5 10321 2 3 1629
+10 2 2 3258 4 4 0
+11 11 11 20095 1 2 0
+12 1 1 1629 1 3 1629
+13 1 1 1629 1 1 1629
+14 5 8 407922 9 18 193705
+15 16 22 911371 4 18 558309
+16 1 1 1629 4 9 192076
+17 2 2 3258 5 7 3258
+18 1 1 1629 2 3 1629
+19 0 0 0 2 4 3258
+20 4 4 6516 3 5 4887
+21 0 0 0 5 5 1629
+22 2 2 3982 1 2 0
+23 0 0 0 4 12 187189
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 57 66 1381384
+ca 8 8 15208
+gb 5 5 8145
+pl 3 3 4887
+ru 2 2 3258
+cn 2 2 3258
+nl 2 2 3258
+fr 2 2 3258
+br 1 1 1629
+ua 1 1 1629
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 32 19548 20171031214132 0
+googlebot 16 26064 20171031204218 0
+bingpreview 12 1113360 20171031152805 0
+spider 8 13032 20171030025118 0
+ia_archiver 2 3258 20171029193359 0
+netcraft 1 1629 20171010171453 0
+no_user_agent 1 1629 20171027070628 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+ttf 4 214816 0 0
+Unknown 1 33857 0 0
+html 78 138485 0 0
+png 9 1038756 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+win7 9 6
+winxp 7 7
+linux 5 5
+Unknown 32 32
+macosx 2 2
+macosx9 1 1
+win2003 5 5
+linuxandroid 2 2
+winnt 22 16
+macosx8 2 2
+winlong 3 3
+win8.1 1 1
+macosx4 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+firefox45.65.18 1 1
+chrome61.0.3163.100 25 16
+mozilla 14 14
+firefox3.6.2 1 1
+msie9.0 1 1
+msie7.0 5 5
+msie11.0 1 1
+opera8.50 3 3
+chrome26.0.1410.65 1 1
+firefox29.0 1 1
+msie8.0 2 2
+chrome45.0.2454.94 1 1
+msie6.0 1 1
+chrome34.0.1847.137 1 1
+firefox35.0 1 1
+chrome51.0.2704.106 1 1
+opera43.0.2442.1144 1 1
+chrome43.0.2357.124 1 1
+chrome58.0.3029.110 2 2
+chrome11.0.661.0 1 1
+firefox30.0 1 1
+firefox57.0 1 1
+chrome58.0.3029.81 1 1
+chrome34.0.1847.116 1 1
+firefox42.0 1 1
+Unknown 20 20
+safari6.1.3 1 1
+firefox52.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20171014200454
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20171016111853
+Mozilla/5.0_Firefox/35.0 20171010004053
+Mozilla/5.0_(compatible;_ips-agent) 20171003002137
+Magic_Browser 20171031022705
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20171014200454
+Magic_Browser 20171031022705
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 58
+From1 3 3
+From2 0 0
+From3 1 1
+From4 21 30
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.marinetraffic.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 63 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 14
+/test/wp-login.php 1 -
+/blogs/wp-login.php 1 -
+/modules/mod_feed/mod_feed.xml 1 -
+/home/wp-login.php 1 -
+/news/wp-login.php 1 -
+/wp-login.php 4 -
+/sitemap.xml 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/robots.txt 47 -
+/site/wp-login.php 1 -
+/wp/wp-login.php 1 -
+/xmlrpc.php 1 -
+/en/wp-login.php 1 -
+//wp-login.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 32
+52.41.211.72 9 9 14661 20171031022705
+167.114.172.224 7 7 13579 20171016111854
+129.10.9.120 7 10 412632 20171012154504
+52.34.24.33 7 7 11403 20171027003124
+163.172.4.153 5 5 8145 20171031165946
+69.58.178.59 5 5 10321 20171003002137
+38.100.21.66 5 5 10321 20171010093250
+129.10.9.41 4 7 405567 20171012154631
+129.10.118.137 4 7 406293 20171017141004
+54.90.125.83 3 3 57686 20171018152651
+195.22.127.63 3 3 4887 20171016180307
+35.162.70.167 2 2 3258 20171026050718
+45.32.150.212 2 2 3258 20171014200454
+104.238.248.15 2 2 3982 20171001221353
+185.14.195.230 1 1 1629 20171025110706
+146.185.223.146 1 1 1629 20171031000306
+107.23.212.160 1 1 1629 20171006114308
+34.213.180.225 1 1 1629 20171026202422
+189.122.184.37 1 1 1629 20171030104617
+158.69.252.227 1 1 1629 20171010002453
+54.191.236.11 1 1 1629 20171024062049
+124.206.180.130 1 1 1629 20171010004053
+129.10.9.53 1 1 33857 20171006151450
+213.183.51.182 1 1 1629 20171025062530
+46.183.144.23 1 1 1629 20171019132300
+146.185.144.64 1 1 1629 20171011054027
+52.53.231.176 1 1 1629 20171011153433
+173.239.216.3 1 1 0 20171014045600
+46.105.30.8 1 1 1629 20171030112536
+62.210.111.21 1 1 1629 20171006144412
+139.227.144.102 1 1 1629 20171003172307
+52.208.124.147 1 1 1629 20171007125823
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20171001 2 2 3982 1
+20171003 6 6 11950 2
+20171006 5 5 40373 5
+20171007 1 1 1629 1
+20171010 7 7 13579 3
+20171011 3 3 4887 3
+20171012 11 17 818199 2
+20171014 3 3 3258 2
+20171016 9 9 16837 3
+20171017 4 7 406293 1
+20171018 3 3 57686 1
+20171019 1 1 1629 1
+20171020 1 1 1629 1
+20171021 2 2 3258 2
+20171022 2 2 3258 2
+20171023 2 2 3258 1
+20171024 4 4 6516 3
+20171025 4 4 6516 4
+20171026 4 4 6516 4
+20171027 1 1 1629 1
+20171028 1 1 1629 1
+20171029 1 1 1629 1
+20171030 3 3 4887 3
+20171031 3 3 4887 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+15mn-30mn 1
+30mn-1h 1
+0s-30s 47
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 60 96111 50 45
+/about.html 8 18824 0 1
+/contact.html 6 14130 0 1
+/adler.ttf 4 214816 0 1
+/archive.html 4 9420 0 2
+/cpanel 1 33857 1 1
+END_SIDER

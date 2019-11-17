@@ -1,0 +1,35 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/thedada.org
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/thedada.org-bytes_log
+directoryhomethedada: 
+  allowoverride: All
+documentroot: /home/thedada/public_html
+group: thedada
+hascgi: 1
+homedir: /home/thedada
+ifmodulemodpassengerc: 
+  passengergroup: 
+    - 
+      value: " thedada"
+  passengeruser: 
+    - 
+      value: " thedada"
+ip: 64.118.86.20
+owner: root
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/thedada/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@thedada.org
+serveralias: mail.thedada.org www.thedada.org
+servername: thedada.org
+usecanonicalname: 'Off'
+user: thedada
+userdirprotect: ''
